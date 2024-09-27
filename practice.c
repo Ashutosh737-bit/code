@@ -98,10 +98,11 @@ int main() {
     {
         if (n%i==0) 
         {
-           
+               //what to do then ??           
         }
         else
         {
+            //you should print something here?
            count++;
         }
         
