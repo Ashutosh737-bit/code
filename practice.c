@@ -93,10 +93,13 @@ int main() {
 
     printf("enter a positive integer: ");
     scanf("%d", &n);
-    for (int i = 2; i <= n; i++) {
-        if (n%i==0) {
+    for (int i = 2; i <= n; i++) 
+    {
+        if (n%i==0) 
+        {
            
-        }else
+        }
+        else
         {
            count++;
         }
